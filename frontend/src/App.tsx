@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-[#1C1C1C] text-[#1C1C1C] min-h-screen p-6"> {/* 背景色と文字色 */}
+      <div className="bg-[#1C1C1C] text-[#1C1C1C] min-h-screen p-6 overflow-x-hidden"> {/* 背景色と文字色 */}
         <SearchMovie></SearchMovie>
       </div>
     </>
